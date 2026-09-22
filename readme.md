@@ -1,3 +1,4 @@
+[![.github/workflows/main.yml](https://github.com/Arch-TTY/Totem/actions/workflows/main.yml/badge.svg)](https://github.com/Arch-TTY/Totem/actions/workflows/main.yml)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/docs/images/TOTEM_logo_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="/docs/images/TOTEM_logo_bright.svg">
