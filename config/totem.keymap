@@ -177,7 +177,7 @@
         };
 
         tilde {
-            bindings = <&kp GB_NON_US_BSLH>;
+            bindings = <&kp LS(NON_US_HASH)>;
             key-positions = <11 10>;
             layers = <0>;
         };
@@ -233,7 +233,7 @@
             bindings = <
         &kp GB_N1    &kp GB_N2   &kp GB_N3       &kp GB_N4          &kp GB_N5    &kp GB_N6     &kp GB_N7     &kp GB_N8          &kp GB_N9           &kp GB_N0
         &bt BT_CLR   &bt BT_NXT  &bt BT_PRV      &out OUT_TOG       &inc_bri     &kp GB_MINUS  &kp GB_EQUAL  &kp GB_LEFT_BRACE  &kp GB_RIGHT_BRACE  &kp GB_BACKSLASH
-&tog 3  &bootloader  &soft_off   &studio_unlock  &ext_power EP_TOG  &dec_bri     &kp GB_COMMA  &kp GB_DOT    &kp GB_SLASH       &kp GB_APOS         &kp GB_GRAVE      &kp GB_NON_US_HASH
+&tog 3  &bootloader  &soft_off   &studio_unlock  &ext_power EP_TOG  &dec_bri     &kp GB_COMMA  &kp GB_DOT    &kp GB_SLASH       &kp GB_APOS         &kp GB_GRAVE      &kp NON_US_HASH
                                  &kp LGUI        &trans             &kp SPACE    &kp RET       &trans        &kp RALT
             >;
         };
