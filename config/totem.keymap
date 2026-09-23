@@ -45,7 +45,7 @@
         };
 
         Semi {
-            bindings = <&kp SEMI>;
+            bindings = <&kp GB_SEMI>;
             key-positions = <28 29>;
             layers = <0>;
         };
@@ -57,119 +57,119 @@
         };
 
         parentheses_left {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp GB_LEFT_PARENTHESIS>;
             key-positions = <13 12>;
             layers = <0>;
         };
 
         parentheses_right {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+            bindings = <&kp GB_RIGHT_PARENTHESIS>;
             key-positions = <16 17>;
             layers = <0>;
         };
 
         bracket_left {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp GB_LEFT_BRACKET>;
             key-positions = <2 3>;
             layers = <0>;
         };
 
         bracket_right {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp GB_RIGHT_BRACKET>;
             key-positions = <7 6>;
             layers = <0>;
         };
 
         Colon {
-            bindings = <&kp COLON>;
+            bindings = <&kp GB_COLON>;
             key-positions = <17 18>;
             layers = <0>;
         };
 
         grave {
-            bindings = <&kp GRAVE>;
+            bindings = <&kp GB_GRAVE>;
             key-positions = <12 11>;
             layers = <0>;
         };
 
         brace_left {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp GB_LEFT_BRACE>;
             key-positions = <24 23>;
             layers = <0>;
         };
 
         brace_right {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&kp GB_RIGHT_BRACE>;
             key-positions = <27 28>;
             layers = <0>;
         };
 
         less_than {
-            bindings = <&kp LESS_THAN>;
+            bindings = <&kp GB_LESS_THAN>;
             key-positions = <2 1>;
             layers = <0>;
         };
 
         more_than {
-            bindings = <&kp GREATER_THAN>;
+            bindings = <&kp GB_GREATER_THAN>;
             key-positions = <8 7>;
             layers = <0>;
         };
 
         hyphen {
-            bindings = <&kp MINUS>;
+            bindings = <&kp GB_MINUS>;
             key-positions = <24 27>;
         };
 
         plus {
-            bindings = <&kp PLUS>;
+            bindings = <&kp GB_PLUS>;
             key-positions = <3 6>;
             layers = <0>;
         };
 
         equal {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp GB_EQUAL>;
             key-positions = <13 16>;
         };
 
         pipe {
-            bindings = <&kp PIPE>;
+            bindings = <&kp GB_PIPE>;
             key-positions = <23 22>;
         };
 
         asterisk {
-            bindings = <&kp ASTERISK>;
+            bindings = <&kp GB_ASTERISK>;
             key-positions = <2 7>;
         };
 
         dollar {
-            bindings = <&kp DOLLAR>;
+            bindings = <&kp GB_DOLLAR>;
             key-positions = <12 17>;
             layers = <0>;
         };
 
         excel {
-            bindings = <&kp EXCL>;
+            bindings = <&kp GB_EXCL>;
             key-positions = <23 28>;
         };
 
         ampersand {
-            bindings = <&kp AMPERSAND>;
+            bindings = <&kp GB_AMPERSAND>;
             key-positions = <14 15>;
         };
 
         underscore {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp GB_UNDERSCORE>;
             key-positions = <25 26>;
         };
 
         backslash {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp GB_BACKSLASH>;
             key-positions = <18 17>;
         };
 
         tilde {
-            bindings = <&kp NON_US_BSLH>;
+            bindings = <&kp GB_NON_US_BSLH>;
             key-positions = <11 10>;
         };
     };
@@ -196,9 +196,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q       &kp W       &kp E         &kp R        &kp T        &kp Y    &kp U        &kp I         &kp O       &kp P
-       &mt LGUI A  &mt LALT S  &mt LCTRL D   &mt LSHFT F  &kp G        &kp H    &mt RSHFT J  &mt RCTRL K   &mt RALT L  &mt RGUI SEMICOLON
-&none  &kp Z       &kp X       &kp C         &kp V        &kp B        &kp N    &kp M        &kp COMMA     &kp DOT     &kp FSLH            &kp BACKSPACE
+       &kp GB_Q       &kp GB_W       &kp GB_E         &kp GB_R        &kp GB_T        &kp GB_Y    &kp GB_U        &kp GB_I         &kp GB_O       &kp GB_P
+       &mt LGUI GB_A  &mt LALT GB_S  &mt LCTRL GB_D   &mt LSHFT GB_F  &kp GB_G        &kp GB_H    &mt RSHFT GB_J  &mt RCTRL GB_K   &mt RALT GB_L  &mt RGUI GB_SEMICOLON
+&none  &kp GB_Z       &kp GB_X       &kp GB_C         &kp GB_V        &kp GB_B        &kp GB_N    &kp GB_M        &kp GB_COMMA     &kp GB_DOT     &kp GB_FSLH            &kp BACKSPACE
                                &kp LEFT_GUI  &lt 1 TAB    &kp SPACE    &kp RET  &lt 2 ESC    &kp LEFT_ALT
             >;
         };
@@ -222,9 +222,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp N1       &kp N2      &kp N3          &kp N4             &kp N5       &kp N6     &kp N7     &kp N8          &kp N9           &kp N0
-        &bt BT_CLR   &bt BT_NXT  &bt BT_PRV      &out OUT_TOG       &inc_bri     &kp MINUS  &kp EQUAL  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
-&tog 3  &bootloader  &soft_off   &studio_unlock  &ext_power EP_TOG  &dec_bri     &kp COMMA  &kp DOT    &kp SLASH       &kp APOS         &kp GRAVE      &kp NON_US_HASH
+        &kp GB_N1       &kp GB_N2      &kp GB_N3          &kp GB_N4             &kp GB_N5       &kp GB_N6     &kp GB_N7     &kp GB_N8          &kp GB_N9           &kp GB_N0
+        &bt BT_CLR   &bt BT_NXT  &bt BT_PRV      &out OUT_TOG       &inc_bri     &kp GB_MINUS  &kp GB_EQUAL  &kp GB_LEFT_BRACE  &kp GB_RIGHT_BRACE  &kp GB_BACKSLASH
+&tog 3  &bootloader  &soft_off   &studio_unlock  &ext_power EP_TOG  &dec_bri     &kp GB_COMMA  &kp GB_DOT    &kp GB_SLASH       &kp GB_APOS         &kp GB_GRAVE      &kp GB_NON_US_HASH
                                  &kp LGUI        &trans             &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
