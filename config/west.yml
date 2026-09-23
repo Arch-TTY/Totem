@@ -12,5 +12,8 @@ manifest:
     - name: prospector-zmk-module
       remote: arch-tty
       revision: feat/new-status-screens
+    - name: zmk-locales
+      remote: arch-tty
+      revision: main
   self:
     path: config
