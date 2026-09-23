@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: arch-tty
-      url-base: https://github.com/Arch-TTY
+    - name: - name: joelspadin
+      url-base: https://github.com/joelspadin
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -13,7 +13,7 @@ manifest:
       remote: arch-tty
       revision: feat/new-status-screens
     - name: zmk-locales
-      remote: arch-tty
+      remote: joelspadin
       revision: main
   self:
     path: config
