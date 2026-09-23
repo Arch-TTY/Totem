@@ -2,8 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: - name: joelspadin
+    - name: joelspadin
       url-base: https://github.com/joelspadin
+    - name: arch-tty
+      url-base: https://github.com/arch-tty
   projects:
     - name: zmk
       remote: zmkfirmware
